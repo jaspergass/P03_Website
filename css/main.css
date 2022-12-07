@@ -163,7 +163,9 @@ a:hover,a:active{
 
 }
 
-
-.navigation a{
+form{
+  margin:0;
+}
+nav a{
   border-bottom:none;
 }

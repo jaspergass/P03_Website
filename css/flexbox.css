@@ -54,18 +54,6 @@
 
 /*---- HEADER ----*/
 
-nav{
-	background-color: rgb(255, 255, 255);
-	border-bottom-style: solid;
-	border-left-style:solid;
-	border-color:rgb(0, 0, 0);
-	
-	height:8em;
-	position:absolute;
-	width:calc(100% - 5vw);
-	top:0;
-	right:0;
-}
 
 .header-title-box{
 	background-color: rgb(255, 255, 255);
@@ -105,7 +93,7 @@ nav{
 
 
 /*---- NAVIGATION BAR ----*/
-.navigation{
+nav{
 	position:fixed;
 	height:50vh;
 	min-height:15em;
@@ -124,14 +112,14 @@ nav{
 	gap:1em;
 }
 
-.navigation .nav-button{
+nav .nav-button{
 	display:block;
 	width:10em;
 	text-align:right;
 }
 
 
-.navigation img{
+nav img{
 	position:absolute;
 	left: 0;
 	transform: translate(0.04em, 0.3em);
@@ -176,7 +164,7 @@ nav{
 	border-color:black;
 }
 
-.two-img-container{
+.box-wrap{
 	display: -webkit-flex; /* For support in a series of Webkit browsers */
 	display: -ms-flex; /* For support in IE 10 */
 	display: flex;
@@ -189,16 +177,18 @@ nav{
 .two-img{
 	width:50%;
 }
-
+.three-img{
+	width:30%;
+}
 @media(max-width:58em){
-  .header-box{
-    width:100%;
-  }
+	.header-box{
+		width:100%;
+	}
 }
 @media(max-width:52.8em){
-  .header-box{
-    height:9em;
-  }
+	.header-box{
+		height:9em;
+	}
 }
 @media (max-width:50em){
 	.header-title-box{
@@ -210,10 +200,6 @@ nav{
     height:18em;
     
   }
-	nav{
-		width:100%;
-		height: 18em;
-	}
 	.header-text-box{
 		right:0;
 		top:11em;
@@ -222,20 +208,20 @@ nav{
 		margin-top:35em;
 		margin-left:5vw;
 	}
-	.navigation{
+	nav{
 		position:absolute;
 		top:19em;
 		max-height:16em;
 	}
 }
 @media(max-width:30.2em){
-  .header-box{
-    height:20em;
-  }
-  .navigation{
+	.header-box{
+		height:20em;
+	}
+  	nav{
 		top:21em;
 	}
-  .body-box{
-		margin-top:37em;
+  	.body-box{
+		margin-top:38em;
 	}
 }

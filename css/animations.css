@@ -1,4 +1,4 @@
-.navigation .checked-img{
+nav .checked-img{
     animation: 1s  forwards navigation;
 }
 
@@ -13,7 +13,7 @@
     }
 }
 
-.navigation .unchecked-img{
+nav .unchecked-img{
     animation: 1s  forwards navigation2;
 }
 
@@ -27,7 +27,7 @@
     }
 }
 
-.navigation .checked{
+nav .checked{
     animation: 1s  forwards checked-button-in;
 }
 
@@ -40,7 +40,7 @@
     }
 }
 
-.navigation .unchecked{
+nav .unchecked{
     animation: 1s  forwards checked-button-out;
 }
 

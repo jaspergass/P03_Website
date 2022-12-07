@@ -172,14 +172,28 @@ nav img{
     -webkit-flex-wrap: wrap;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	
 }
+
 .two-img{
 	width:50%;
 }
 .three-img{
 	width:30%;
 }
+.gallery{
+	gap:1em;
+	align-items: flex-start;
+}
+.gallery-img{
+	max-width: 34%;
+	
+}
+.gallery-img-tall{
+	max-width:20%;
+}
+
+
+/*---- MEDIA QUERIES ----*/
 @media(max-width:58em){
 	.header-box{
 		width:100%;

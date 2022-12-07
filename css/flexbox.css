@@ -17,7 +17,7 @@
 	margin-right:5vw;
 	margin-bottom:5em;
 	margin-top:13em;
-	gap:1em;
+	gap:1.2em;
 	
 }
 
@@ -172,6 +172,7 @@ nav img{
     -webkit-flex-wrap: wrap;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
+	gap:1em;
 }
 
 .box-row{
@@ -184,10 +185,13 @@ nav img{
 	flex-direction: row;
 }
 .two-img{
-	width:50%;
+	width:48%;
 }
 .three-img{
 	width:30%;
+}
+.four-img{
+	width:23%;
 }
 .gallery{
 	gap:1em;
@@ -222,7 +226,7 @@ nav img{
 	.header-box{
     height:18em;
     
-  }
+ 	}
 	.header-text-box{
 		right:0;
 		top:11em;
@@ -230,6 +234,7 @@ nav img{
 	.body-box{
 		margin-top:35em;
 		margin-left:5vw;
+		gap:1em;
 	}
 	nav{
 		position:absolute;

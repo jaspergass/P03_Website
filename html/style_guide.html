@@ -2,11 +2,10 @@
 <html lang="en">
 
     <head>
-        <!-- This portion of code is drawn from web.dev/i18n/en/responsive-web-design-basics/ -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
 
-        <title>P03 - Website </title>
+        <title>P03 - Portfolio Style Guide </title>
 
         <link rel="stylesheet" href="../css/normalize.css">
         <link href="../css/main.css" rel="stylesheet">
@@ -23,11 +22,11 @@
             <h5>Contact: <a href="mailto:jaspergass@outlook.com">jaspergass@outlook.com</a> </h5>
             <h5>he/they</h5>
             </div>
-            <a href="index.html">
+            <a href="../index.html">
                 <div class="header-title-box header-cursor">
                 <h1 class="header-cursor">Jasper Gass</h1>
-                <h3 class="header-cursor">an eportfolio</h3>
-                <img class="header-img header-cursor" src="../img/star.svg">
+                <h3 class="header-cursor">an e-portfolio</h3>
+                <img class="header-img header-cursor" src="../img/star.svg" alt="">
                 <div class="header-line header-cursor"></div>
                 </div>
             </a>
@@ -39,20 +38,20 @@
               <button>Main Site</button>
             </form>
             <form action="#branding">
-              <img src="../img/star.svg">
+              <img src="../img/star.svg" alt="">
               <button class="nav-button">Branding</button>
             </form>
             <form action="#interactive-elements">
-              <img src="../img/star.svg">
+              <img src="../img/star.svg" alt="">
               <button class="nav-button">Interactive Elements</button>
             </form>
             
             <div class="line"></div>
         </nav>
 
-        <div class="body-box">
+        <div class="box-column body-box">
             <!-- BRANDING SECTION -->
-            <section id="branding" class="section">
+            <section id="branding" class="box-column">
                 <h2>Branding</h2>
                 <!-- color -->
                 <div class="element">
@@ -63,7 +62,7 @@
                     <div class="box-color"></div>
                     <div class="box-color"></div>
                     <div class="box-color"></div>
-                    <img class="star-img" src="../img/star.svg">
+                    <img class="star-img" src="../img/star.svg" alt="">
                     </div>
                 </div>
                 <!-- headings -->
@@ -131,7 +130,7 @@
 
             
             <!-- INTERACTIVE ELEMENTS SECTION -->
-            <section id="interactive-elements" class="section">
+            <section id="interactive-elements" class="box-column">
                 <h2>Interactive Elements</h2>
                 <!-- in text links -->
                 <div class="element">
@@ -146,7 +145,7 @@
                     <h4>Rendered example:</h4>
                     <div class="rendered">
                     <p>
-                        Here is an in-text link to <a href="" target="_blank">learn more about me!</a>
+                        Here is an in-text link to <a href="../index.html" target="_blank">learn more about me!</a>
                     </p>
                     </div>
                 </div>
@@ -221,13 +220,26 @@
         
                     <h4>Rendered element:</h4>
                     <a target="_blank">
-                    <div class="img-link" alt="A picture of two hands overlapping eachother."></div>
+                    <div class="img-link"></div>
                     </a>
                 </div>
                 
                 
             </section>
             <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+            <!-- CITATIONS -->
+            <section id="citations" class="box-column">
+                <h2>Citations</h2>
+                <div class="element">
+                    <ul>
+                        <li>CodyHouse. (2020, December 15). <span class="italic">Custom cursor in CSS.</span> CodyHouse. Retrieved December 8, 2022, from <a href="https://codyhouse.co/nuggets/custom-cursor">https://codyhouse.co/nuggets/custom-cursor</a></li>
+                        <li><span class="italic">HTML Tag. </span>W3 Schools. (n.d.). Retrieved December 8, 2022, from <a href="https://www.w3schools.com/tags/tag_address.asp" target="_blank">https://www.w3schools.com/tags/tag_address.asp</a></li>
+                        <li><span class="italic">Overflow-wrap. </span>MDN Web Docs. (n.d.). Retrieved December 8, 2022, from <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-wrap" target="_blank">https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-wrap</a></li>
+                    </ul>
+                </div>
+            </section>
+            <!-- //CITATIONS -->
         </div>
     </body>
 

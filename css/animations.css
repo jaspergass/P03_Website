@@ -34,9 +34,11 @@ nav .checked{
 @keyframes checked-button-in{
     from{
         transform: translate(0em, 0em) ;
+        border-color:rgb(113, 109, 105);
     }
     to{
         transform: translate( 1em, 0em);
+        border-color:black;
     }
 }
 
@@ -47,8 +49,10 @@ nav .unchecked{
 @keyframes checked-button-out{
     from{
         transform: translate( 1em, 0em);
+        border-color:black;
     }
     to{
         transform: translate(0em, 0em) ;
+        border-color:rgb(113, 109, 105);
     }
 }

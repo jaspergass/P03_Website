@@ -1,8 +1,8 @@
+/* ------ Text ----- */
 body{
   font-family: "tenon", Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* ------ Text ----- */
 h1{
   font-family:"house-of-cards";
   font-weight: 400;
@@ -48,6 +48,11 @@ h5{
 p{
   font-family:"tenon";
   font-size:1.2em;
+  line-height:1.6em;
+}
+
+.italic{
+  font-style:italic;
 }
 /* ----end of text ----*/
 
@@ -72,71 +77,6 @@ img{
 
 .star-img{
   max-width:3em;
-}
-
-/* ---- BUTTONS ------ */
-button{
-  font-family: "house-of-cards";
-  font-weight: 400;
-  font-size:1.5em;
-  text-align: center;
-  
-  border-style:solid;
-  border-color: rgb(113, 109, 105);
-  border-width: 0.08em;
-  padding:0.6em;
-  padding-right: 1em;
-  display: block;
-  background-color:white;
-
-  cursor: url('../img/cursor-hover.svg') 17.5 17.5, auto;
-}
-
-
-button:hover, button:active{
-  box-shadow: inset 0em 0em 0.1em rgb(101, 101, 101);
-}
-
-code{
-  background-color: rgb(241, 237, 234);
-  padding: 0.5rem;
-  display: block;
-
-}
-
-
-input[type="text"]{
-  border-style:dotted;
-  border-width:0.1em;
-  border-color:black;
-  width:100%;
-}
-
-input:hover, input:active{
-  border-style:solid;
-}
-
-a{
-  color:black;
-  text-decoration-style:dotted;
-  cursor: url('../img/cursor-hover.svg') 17.5 17.5, auto;
-  margin:0;
-  width:fit-content;
-
-  /* referenced https://stackoverflow.com/questions/8336729/how-to-make-text-in-a-tag-wordwrap */
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  -ms-word-break: break-all;
-  word-break: break-all;
-  word-break: break-word;
-}
-
-a:hover,a:active{
-  text-decoration-style:solid;
-}
-
-.header-cursor{
-  cursor: url('../img/cursor-hover.svg') 17.5 17.5, auto;
 }
 
 /* nav bar graphic */
@@ -171,6 +111,74 @@ a:hover,a:active{
   background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 35%, rgba(0,0,0,1) 80%, rgba(0,0,0,0) 100%);
 
 }
+/*---- //IMG ---- */
+
+/*---- INTERACTIVE ELEMENTS ------ */
+button{
+  font-family: "house-of-cards";
+  font-weight: 400;
+  font-size:1.5em;
+  text-align: center;
+  
+  border-style:solid;
+  border-color: rgb(113, 109, 105);
+  border-width: 0.08em;
+  padding:0.6em;
+  padding-right: 1em;
+  display: block;
+  background-color:white;
+
+  cursor: url('../img/cursor-hover.svg') 17.5 17.5, auto;
+}
+
+
+button:hover, button:active{
+  box-shadow: inset 0em 0em 0.1em rgb(101, 101, 101);
+}
+
+code{
+  background-color: rgb(241, 237, 234);
+  padding: 0.5rem;
+  display: block;
+
+}
+
+input[type="text"]{
+  border-style:dotted;
+  border-width:0.1em;
+  border-color:black;
+  width:100%;
+}
+
+input:hover, input:active{
+  border-style:solid;
+}
+
+a{
+  color:black;
+  text-decoration-style:dotted;
+  cursor: url('../img/cursor-hover.svg') 17.5 17.5, auto;
+  margin:0;
+  width:fit-content;
+
+  /* referenced https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-wrap */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+}
+
+a:hover,a:active{
+  text-decoration-style:solid;
+}
+
+.header-cursor{
+  cursor: url('../img/cursor-hover.svg') 17.5 17.5, auto;
+}
+/*---- //INTERACTIVE ELEMENTS ----*/
+
+
 
 form{
   margin:0;
